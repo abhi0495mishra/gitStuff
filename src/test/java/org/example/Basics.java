@@ -67,6 +67,9 @@ public class Basics {
                 .then().log().all().assertThat().statusCode(200).extract().response().asString();
 
         System.out.println(getResponse);
+        System.out.println(getResponse);
+        System.out.println(getResponse);
+        System.out.println(getResponse);
 
 
         // This is now up to date code.
