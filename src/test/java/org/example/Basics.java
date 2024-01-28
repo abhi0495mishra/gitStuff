@@ -1,16 +1,10 @@
 package org.example;
-
 import static io.restassured.RestAssured.*;   // IMP step
 import static org.hamcrest.Matchers.*;   //IMP Step  equalTo("APP")
-
-import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
-import org.example.Files.Payload;
-import org.testng.reporters.XMLConstants;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
